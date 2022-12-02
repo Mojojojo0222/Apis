@@ -16,7 +16,7 @@ const  db  = require("./models/Product");
 //dotenv.config();
 
 mongoose
-  .connect('mongodb://127.0.0.1/myapp')
+  .connect('mongodb://127.0.0.1:27017/myapp')
   .then(() => console.log("DB Connection Successfull!"))
   .catch((err) => {
     console.log(err);
