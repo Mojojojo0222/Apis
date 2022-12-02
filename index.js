@@ -21,7 +21,13 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
+app.get("/",function(req,res){
+    db.find(function(err,products){
 
+    
+    res.send(products);
+})
+})
 // app.use(cors());
 // db.find(function(err,products){
 //     if(err){
