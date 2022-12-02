@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Mojojojo0222 <102588760+Mojojojo0222@users.noreply.github.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.1",
